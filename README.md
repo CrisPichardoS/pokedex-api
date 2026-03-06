@@ -1,7 +1,3 @@
-# 🚀 Pokédex API: Microservicio Contenerizado y Azure Hybrid Cloud
-
-Este proyecto demuestra el ciclo de vida de un microservicio desde el desarrollo local en **Ubuntu 24.04 (WSL2)** hasta su exposición pública, enfrentando retos reales de **Azure Governance**.
-
 ## 📊 Diagrama de Flujo del Despliegue
 
 ```mermaid
@@ -13,7 +9,7 @@ graph TD
     E -->|Error: Azure Policy| F[Cambio de Región: South Central US]
     F -->|Error: Quota 0| G[Pivot: Local Tunneling]
     G --> H[Ngrok Tunnel]
-    H --> I[https://transparencia.carm.es/que-es-la-publicidad-activa](https://transparencia.carm.es/que-es-la-publicidad-activa)
+    H --> I[API Pública Activa]
     
     subgraph "Infraestructura Local (Victus by HP)"
     A
