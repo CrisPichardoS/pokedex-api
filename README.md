@@ -1,3 +1,7 @@
+# 🚀 Pokédex API: Microservicio Contenerizado y Azure Hybrid Cloud
+
+Este proyecto demuestra el ciclo de vida de un microservicio desde el desarrollo local en **Ubuntu 24.04 (WSL2)** hasta su exposición pública.
+
 ## 📊 Diagrama de Flujo del Despliegue
 
 ```mermaid
@@ -17,5 +21,3 @@ graph TD
     C
     H
     end
-## 📂 Documentación Adicional
-- [Resumen detallado de la implementación (Bitácora)](./LOG.md)
