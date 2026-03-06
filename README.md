@@ -17,3 +17,5 @@ graph TD
     C
     H
     end
+## 📂 Documentación Adicional
+- [Resumen detallado de la implementación (Bitácora)](./LOG.md)
